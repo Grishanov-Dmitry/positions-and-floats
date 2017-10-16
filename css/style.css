@@ -1,0 +1,329 @@
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Calibri;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+h2 {
+    text-decoration: underline;
+    font-family: "St Marie Thin";
+}
+
+h2:hover {
+    font-style: italic;
+}
+
+header {
+    height: 128px;
+    border-bottom: 4px solid #ecb867;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 10;
+}
+.logo {
+    float: left;
+    margin: 4px 0px 0px 1.5%;
+}
+
+.logo_name {
+    margin: 13px 0px 0px 4.16%;
+    float: left;
+    font-size: 37px;
+    letter-spacing: 1.5px;
+}
+
+.logo_name span:first-child {
+    color: #e59b27;
+}
+
+.logo_name span:last-child {
+    color: #6e6d6b;
+    font-family: Bebas;
+}
+
+nav {
+    float: right;
+    width: 800px;
+    height: 80px;
+}
+
+nav a {
+    display: inline-block;
+    margin-left: 7.5%;
+    float: right;
+    width: 65px;
+    height: 67px;
+    background-image: url("../image/spritesheet.png");
+    color: #9c9a9a;
+}
+
+nav p {
+    padding-top: 76px;
+    font-size: 22px;
+    text-align: center;
+}
+nav a:nth-child(1) {
+    background-position: 260px 11px;
+    margin-right: 10px;
+}
+nav a:nth-child(2) {
+    background-position: 330px 5px;
+}
+nav a:nth-child(3) {
+    background-position: 63px 3px;
+}
+nav a:nth-child(4) {
+    background-position: 415px 3px;
+}
+nav a:nth-child(5) {
+    background-position: 163px 0px;
+}
+
+main {
+    margin: 128px 0px 69px 0px;
+
+}
+
+.question_battle {
+    height: 403px;
+    clear: both;
+    background: url(../image/big-orange-bg.png) no-repeat -125px;
+    font-family: Bebas;
+    z-index: 1;
+    letter-spacing: 0.8px;
+}
+
+.first_question p {
+    position: absolute;
+    top: 6px;
+    left: 30px;
+}
+
+.second_question p {
+    position: absolute;
+    top: 12px;
+    left: 32px;
+}
+
+.first_question {
+    height: 65px;
+    width: 380px;
+    background-color: #4e4f4f;
+    font-size: 37px;
+    color: #e49b26;
+    position: relative;
+    top: 135px;
+    left: 20px;
+}
+
+.second_question {
+    height: 75px;
+    width: 395px;
+    background-color: #f1c56c;
+    font-size: 37px;
+    color: #6d6c6a;
+    position: relative;
+    top: 160px;
+    left: 10px;
+}
+
+.main_articles {
+    border-top: 4px solid #ecb867;
+    min-height: 185px;
+    border-bottom: 3px solid #f2f1f1;
+    padding-top: 31px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 0.11px;
+    line-height: 23.16px;
+}
+
+.main_articles article {
+    width: 21%;
+    float: left;
+    margin-right: 42px;
+}
+
+.main_articles .last_article_context {
+    margin-right: 0px;
+}
+
+.article_context {
+    max-height: 140px;
+    overflow: auto;
+}
+
+article a {
+    color: #ecb867;
+}
+
+.main_articles article:first-child {
+    padding-left: 22px;
+}
+
+.main_articles article a {
+    float: right;
+}
+
+.meet_team p {
+    width: 85%;
+    padding-left: 32px;
+    line-height: 23.16px;
+}
+
+.meet_team h2 {
+    margin-left: 39.2%;
+    letter-spacing: 1px;
+    font-size: 40px;
+    color: #e89b24;
+    margin-bottom: 30px;
+}
+
+.meet_team figcaption span {
+    color: #e49a26;
+}
+
+.meet_team figure {
+    float: left;
+    width: 26%;
+}
+
+.central_figure {
+    margin: 0px 121px 0 143px;
+}
+
+.meet_team figure figcaption {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.meet_team figure img {
+    width: 290px;
+    border-radius: 50%;
+    border: 10px solid #ecb44b;
+    margin-bottom: 25px;
+}
+
+.meet_teem_fig_cont {
+    font-size: 15px;
+    max-height: 95px;
+    overflow: auto;
+
+}
+
+.feedback {
+    padding-top: 38px;
+    clear: both;
+    font-family: "St Marie Thin";
+}
+
+.feedback input {
+    border: 1px solid silver;
+    display: inline-block;
+}
+
+.feedback input:focus, .feedback input[type='text']:focus, .feedback textarea:focus {
+    /*border: 3px solid #6FA1D9;*/
+    background-color: aquamarine; !important;
+}
+
+.input_box {
+    width: 100%;
+    height: 35px;
+    border: 1px solid silver;
+}
+
+.feedback label {
+    color: #e49a26;
+    font-size: 24px;
+    border: 1px solid silver;
+    position: absolute;
+}
+
+.feedback input[type='text'],input[type='email'] {
+    border-top: 2px solid #d0cfce;
+    border-left: 5px solid #d0cfce;
+    width: 88.5%;
+    height: 30px;
+    background-color: #f8f7f6;
+    margin-bottom: 36px;
+    margin-left: 11%;
+}
+
+.feedback textarea {
+    border-top: 2px solid #d0cfce;
+    border-left: 5px solid #d0cfce;
+    min-height: 90px;
+    width: 88.5%;
+    background-color: #f8f7f6;
+    margin-bottom: 18px;
+    margin-left: 11%;
+}
+
+.feedback input[type='button'] {
+    background-color: #e49b26;
+    width: 175px;
+    height: 45px;
+    border-bottom: 3px solid #b98225;
+    color: #ffffff;
+    font-size: 30px;
+    float: right;
+    margin-right: 33px;
+}
+
+.feedback input[type='button']:hover {
+    border-radius: 30%;
+}
+
+.feedback h2 {
+    margin-left: 35.2%;
+    letter-spacing: 1px;
+    font-size: 40px;
+    color: #e89b24;
+    margin-bottom: 70px;
+}
+
+footer {
+    height: 69px;
+    background-color: #e49b26;
+    border-bottom: 3px solid #b98225;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    font-family: "St Marie Thin";
+    padding-top: 20px;
+}
+
+footer p {
+    font-size: 33px;
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+}
+

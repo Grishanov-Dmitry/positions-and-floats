@@ -1,0 +1,110 @@
+@font-face{
+
+    font-family: 'Bebas';
+
+    src: url('../fonts/BEBAS___.ttf');
+
+    src: url('../fonts/BEBAS___.ttf') format('ttf');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+@font-face{
+
+    font-family: 'Bebas';
+
+    src: url('../fonts/BEBAS___.ttf');
+
+    src: url('../fonts/BEBAS___.ttf') format('ttf');
+
+    font-weight: normal;
+
+    font-style: italic;
+
+}
+@font-face{
+
+    font-family: 'Bebas';
+
+    src: url('../fonts/BEBAS___.ttf');
+
+    src: url('../fonts/BEBAS___.ttf') format('ttf');
+
+    font-weight: bold;
+
+    font-style: normal;
+
+}
+
+@font-face{
+
+    font-family: 'Bebas';
+
+    src: url('../fonts/BEBAS___.ttf');
+
+    src: url('../fonts/BEBAS___.ttf') format('ttf');
+
+    font-weight: bold;
+
+    font-style: italic;
+
+}
+
+
+
+
+
+@font-face{
+
+    font-family: 'StMarie-Thin';
+
+    src: url('../fonts/StMarie-Thin.otf');
+
+    src: url('../fonts/StMarie-Thin.otf') format('otf');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+@font-face{
+
+    font-family: 'StMarie-Thin';
+
+    src: url('../fonts/StMarie-Thin.otf');
+
+    src: url('../fonts/StMarie-Thin.otf') format('otf');
+
+    font-weight: normal;
+
+    font-style: italic;
+}
+@font-face{
+
+    font-family: 'StMarie-Thin';
+
+    src: url('../fonts/StMarie-Thin.otf');
+
+    src: url('../fonts/StMarie-Thin.otf') format('otf');
+
+
+    font-weight: bold;
+
+    font-style: normal;
+
+}
+@font-face{
+
+    font-family: 'StMarie-Thin';
+
+    src: url('../fonts/StMarie-Thin.otf');
+
+    src: url('../fonts/StMarie-Thin.otf') format('otf');
+
+    font-weight: bold;
+
+    font-style: italic;
+
+}
